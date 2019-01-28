@@ -1,0 +1,203 @@
+﻿<Window x:Class="Wpf_SimpleCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_SimpleCalculator"
+        mc:Ignorable="d"
+        Title="Apple Juice Calculator" 
+        Height="350" 
+        Width="525"
+        Background="Bisque">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+        <Label
+            Content="Apple Juice Calculator"
+            Grid.Row="0"
+            Grid.Column="0"
+            FontSize="16"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            />
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <RadioButton x:Name="RadioButton_Gallons" Content="Gallons" IsChecked="True" Checked="RadioButton_Gallons_Checked" />
+            <RadioButton x:Name="RadioButton_Liters" Content="Liters" Checked="RadioButton_Liters_Checked"/>
+
+        </StackPanel>
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label
+                x:Name="GallonsPer"
+                Grid.Row="0"
+                Grid.Column="0"
+                Content="Gallons per lb"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="20"
+                Padding="0,0,10,0"
+                
+                />
+            <TextBox
+                x:Name="Gallons"
+                Text=".08"
+                Grid.Row="0"
+                Grid.Column="1"
+                Width="100"
+                Height="25"
+                HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                />
+            <Label
+                    x:Name="lbsPer"
+                Grid.Row="1"
+                Grid.Column="0"
+                Content="Lbs of apples per box"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="15"
+                Padding="0,0,10,0"
+                />
+            <Label
+                x:Name="Boxes"
+                Grid.Row="2"
+                Grid.Column="0"
+                Content="Boxes to be pressed"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="15"
+                Padding="0,0,10,0"
+                />
+            <TextBox
+                x:Name="lbs"
+                Grid.Row="1"
+                Grid.Column="1"
+                Width="100"
+                Height="25"
+                HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                />
+
+            <TextBox
+                x:Name="boxes"
+                Grid.Row="2"
+                Grid.Column="1"
+                Width="100"
+                Height="25"
+                HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                
+                />
+            <Button
+                Name="Button_Calculate"
+                Grid.Row="3"
+                Grid.Column="1"
+                Width="100"
+                Height="30"
+                Content="Calculate"
+                HorizontalAlignment="Left" 
+                Click="Button_Calculate_Click"
+                Background="DarkRed"
+                Foreground="White"
+                />
+            <ComboBox
+                x:Name="Combobox_Loss"
+                Grid.Row="3"
+                Grid.Column="0"
+                Width="150"
+                Height="30" 
+                
+                >
+                <ComboBoxItem
+                    Content="No loss"/>
+                <ComboBoxItem
+                    Content="5% loss" />
+                <ComboBoxItem
+                    Content="10% loss"/>
+            </ComboBox>
+            <TextBox
+                x:Name="galPressed"
+                Grid.Row="4"
+                Grid.Column="1"
+                FontSize="16"
+                Width="100"
+                Height="30"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                IsReadOnly="True"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                />
+            <Label
+                x:Name="pressGal"
+                Grid.Row="4"
+                Grid.Column="0"
+                Content="Gallons to be pressed"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="15"
+                Padding="0,0,10,0"
+                />
+
+        </Grid>
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="1"
+            Orientation="Vertical"
+            >
+            <Button
+                x:Name="Button_Exit"
+                Content="Exit"
+                Width="75"
+                Height="25"
+                FontSize="16" 
+                Click="Button_Exit_Click"
+                Background="Pink"
+                Margin="48,0"
+                />
+            <Button
+                x:Name="Button_Help"
+                Content="Help"
+                Margin="10"
+                Width="75"
+                Height="25"
+                FontSize="16" 
+                Click="Button_Help_Click"
+                Background="Pink"
+                />
+            <Image 
+                Height="150"
+                Source="apple-face.jpg"
+                
+                />
+        </StackPanel>
+    </Grid>
+</Window>
