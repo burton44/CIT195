@@ -1,0 +1,16 @@
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\bin\Debug\WPF_MasterDetailApp.S1.Sol.exe.config
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\bin\Debug\WPF_MasterDetailApp.S1.Sol.exe
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\bin\Debug\WPF_MasterDetailApp.S1.Sol.pdb
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\PresentationLayer\ProductWindowView.g.cs
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\App.g.cs
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol_MarkupCompile.cache
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol_MarkupCompile.lref
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\PresentationLayer\ProductWindowView.baml
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.g.resources
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.Properties.Resources.resources
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.csproj.GenerateResource.Cache
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.csproj.CoreCompileInputs.cache
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.exe
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.pdb
+E:\CIT 195\Week 05\WPF_MasterDetailApp-master\WPF_MasterDetailApp-master\WPF_MasterDetailApp.S1.Sol\obj\Debug\WPF_MasterDetailApp.S1.Sol.csprojAssemblyReference.cache
