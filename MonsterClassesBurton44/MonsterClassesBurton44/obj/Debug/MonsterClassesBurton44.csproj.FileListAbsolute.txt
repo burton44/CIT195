@@ -1,0 +1,7 @@
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\bin\Debug\MonsterClassesBurton44.exe.config
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\bin\Debug\MonsterClassesBurton44.exe
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\bin\Debug\MonsterClassesBurton44.pdb
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\obj\Debug\MonsterClassesBurton44.csproj.CoreCompileInputs.cache
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\obj\Debug\MonsterClassesBurton44.exe
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\obj\Debug\MonsterClassesBurton44.pdb
+E:\CIT 195\Week 06\MonsterClassesBurton44\MonsterClassesBurton44\obj\Debug\MonsterClassesBurton44.csprojAssemblyReference.cache
