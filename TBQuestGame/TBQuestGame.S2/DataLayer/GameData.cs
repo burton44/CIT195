@@ -57,19 +57,24 @@ namespace WpfTheAionProject.DataLayer
             {
                 Id = 4,
                 Name = "Cryo-sleep Chamber 3B",
-                Description = "You awaken to find catastrophe, all of the other pods in your section appear to be" +
+                Description = "You awaken to find catastrophe, all of the other pods in your section appear to be " +
                 "cracked and leaking. The smell from the effluence spilling out of nearby pods is almost unbearable, " +
                 "the acrid stench of decay hanging in the air. The cabin is washed in a red spectrum of light, " +
-                "emitted by the emergency luminescence system. You see that ahead the cabin door has malfunction but is " +
-                "halfway open.",
+                "emitted by the emergency luminescence system. As you get your bearings you look around at the other " +
+                "pods to see that they are filled with the mangled and half-eaten corpses of your fellow pilots. "+
+                "One of the pods appears to have been broken from the inside out and no signs of a body remain. " +
+                "You see that ahead the cabin door has malfunction but is half way open. ",
                 Accessible = true,
                 ModifiyExperiencePoints = 10
             };
             gameMap.MapLocations[0, 1] = new Location()
             {
                 Id = 1,
-                Name = "Hallway 1",
-                Description = "It's a hallway",
+                Name = "Cryo-chamber Hallway",
+                Description = "The hallway is dimly lit, you see a sign above the South door that says 'Mess Hall' " +
+                "and a sign above the West door saying 'Cryo-sleep Chamber 3B', you look to see if any of the " +
+                "other chambers are still active but they have all been locked and welded shut. Above the other doors " +
+                "are signs that read 'Quarantined'.",
                 Accessible = true,
                 ModifiyExperiencePoints = 10
             };
@@ -82,17 +87,22 @@ namespace WpfTheAionProject.DataLayer
                 Id = 2,
                 Name = "Mess Hall",
                 Description = 
-                "The Mess Hall.",
+                "Today the Mess Hall is well named because it is indeed a mess. A mess of scattered tables, chairs " +
+                "and shredded carcasses. You make your wake carefully through the rubble, electric wires hang down," +
+                "sending sparks crackling at random. The smell of ozone and loosed bowels fills your nostrils. To the " +
+                "North are the cryo chambers and to the South you can see the Barracks. To the East is a small bathroom," +
+                " a terrible smell eminates from within.",
                 Accessible = true,
-                ModifiyExperiencePoints = 10
+                ModifiyExperiencePoints = 10,
+                Message = "You have arrived at the mess hall. The heart of the Cryonaught deep space shuttle."
             };
             gameMap.MapLocations[1, 2] = new Location()
             {
                 Id = 2,
                 Name = "Bathroom",
                 Description = 
-                "A Bathroom",
-                Accessible = false,
+                "You are eaten by slime.",
+                Accessible = true,
                 ModifiyExperiencePoints = 50,
                 ModifyLives = -1,
                 RequiredExperiencePoints = 40
@@ -110,14 +120,13 @@ namespace WpfTheAionProject.DataLayer
                 Accessible = false,
                 ModifiyExperiencePoints = 20,
                 ModifyHealth = 50,
-                Message = "Traveler, our telemetry places you at the Xantoria Market. We have reports of local health potions."
             };
             gameMap.MapLocations[2, 1] = new Location()
             {
                 Id = 4,
                 Name = "The Barracks",
                 Description = 
-                "The Barracks.",
+                "The bunk house.",
                 Accessible = true,
                 ModifiyExperiencePoints = 10
             };

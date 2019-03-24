@@ -342,7 +342,7 @@
                             <StackPanel
                                 Orientation="Horizontal"
                                 HorizontalAlignment="Right">
-                                <Label Content="Experience" Style="{StaticResource MainPanelLabelStyle}"/>
+                                <Label Content="Exp" Style="{StaticResource MainPanelLabelStyle}"/>
                                 <TextBox Text="{Binding Player.ExperiencePoints}" Style="{StaticResource MainPanelTextBoxStyle}"/>
                             </StackPanel>
                             <StackPanel
